@@ -20,9 +20,9 @@ flags:
 ## @param image.tag Overrides the image tag whose default is the chart appVersion
 ##
 image:
-  repository: rg.fr-par.scw.cloud/sepropriodev/pocketbase
-  pullPolicy: IfNotPresent
-  tag: ""
+  repository: ghcr.io/techwolf12/pocketbase
+  pullPolicy: Always
+  tag: "master"
 
 ## @param persistence.storage How much storage space should be reserved for PocketBase
 ## @param persistence.storageClass The PV storage class (a storageClass with Retain policy is recommended)
@@ -36,8 +36,8 @@ persistence:
 ## @param ingress.dns The dns name which will expose PocketBase
 ingress:
   enabled: false
-  clusterIssuer: letsencrypt-prod
-  dns: ""
+  host: ""
+  tlsSecret: ""
 
 ## @param resources The resources associated with the deployment
 resources: {}
