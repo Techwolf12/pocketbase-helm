@@ -23,6 +23,7 @@ image:
   repository: ghcr.io/techwolf12/pocketbase
   pullPolicy: Always
   tag: "master"
+  pullsecret: ""
 
 ## @param persistence.storage How much storage space should be reserved for PocketBase
 ## @param persistence.storageClass The PV storage class (a storageClass with Retain policy is recommended)
