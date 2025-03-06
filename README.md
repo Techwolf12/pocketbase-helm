@@ -1,6 +1,6 @@
-# pocketbase-docker
+# pocketbase-helm
 
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/pocketbase)](https://artifacthub.io/packages/search?repo=pocketbase)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/techwolf12)](https://artifacthub.io/packages/search?repo=techwolf12)
 
 ## Installation
 
@@ -21,6 +21,6 @@ See [here](https://artifacthub.io/packages/helm/techwolf12/pocketbase) for more 
 
 - Upgraded to pocketbase v0.25.9
 
-Check https://github.com/pocketbase/pocketbase/releases/tag/v0.14.0 for possible breaking changes
+Check https://github.com/pocketbase/pocketbase/releases/tag/v0.25.9 for possible breaking changes
 
 </details>
