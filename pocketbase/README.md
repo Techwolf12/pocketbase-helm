@@ -1,10 +1,15 @@
-# pocketbase-docker
+# Pocketbase
+This is an unofficial helm chart for running Pocketbase on K8s with Helm.
 
 ## Installation
 
 You can install pocketbase on K8S by running the command:
 
-`helm upgrade pocketbase oci://rg.fr-par.scw.cloud/sepropriodev/pocketbase-helm --version 0.11.0 --install`
+```
+helm repo add techwolf12 https://helm.techwolf12.nl/
+helm repo update
+helm upgrade pocketbase techwolf12/pocketbase --version 0.25.9 --install
+```
 
 ## Run tests
 
