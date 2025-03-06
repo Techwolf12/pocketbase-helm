@@ -4,3 +4,11 @@ description: A Helm chart for deploying PocketBase.io as a K8S deployment
 type: application
 version: 0.25.9
 appVersion: "v0.25.9"
+sources:
+  - https://github.com/techwolf12/pocketbase-helm
+  - https://github.com/techwolf12/charts
+icon: https://raw.githubusercontent.com/techwolf12/pocketbase-helm/main/icon.png
+maintainers:
+  - name: Chrsitiaan de Die le Clercq
+    email: contact@techwolf12.nl
+    url: https://techwolf12.nl/

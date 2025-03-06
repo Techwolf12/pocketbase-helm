@@ -1,10 +1,10 @@
 # pocketbase-docker
 
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/pocketbase-docker)](https://artifacthub.io/packages/search?repo=pocketbase-docker)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/pocketbase)](https://artifacthub.io/packages/search?repo=pocketbase)
 
 ## Installation
 
-See [here](https://artifacthub.io/packages/helm/pocketbase-docker/pocketbase-helm) for more information
+See [here](https://artifacthub.io/packages/helm/techwolf12/pocketbase) for more information
 
 ## Quick version reference
 

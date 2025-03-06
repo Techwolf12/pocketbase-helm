@@ -1,2 +1,3 @@
 .idea/
-pocketbase-helm-*.tgz
+pocketbase-*.tgz
+pocketbase-*.tgz.prov

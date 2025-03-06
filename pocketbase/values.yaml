@@ -22,7 +22,7 @@ flags:
 image:
   repository: ghcr.io/techwolf12/pocketbase
   pullPolicy: Always
-  tag: "master"
+  tag: "0.25.9"
   pullsecret: ""
 
 ## @param persistence.storage How much storage space should be reserved for PocketBase

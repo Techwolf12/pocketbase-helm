@@ -45,30 +45,8 @@ You can run pocketbase tests by running the command:
 
 ## Upgrading
 
-### From 0.9.X (pocketbase v0.12.X) to 0.10.x (pocketbase v0.13.X)
+Please always make backups before upgrading.
 
-No upgrade is required
-
-Check https://github.com/pocketbase/pocketbase/releases/tag/v0.13.0 for possible breaking changes
-
-### From 0.8.X (pocketbase v0.11.X) to 0.9.x (pocketbase v0.12.X)
-
-No upgrade is required
-
-### From 0.7.X (pocketbase v0.10.X) to 0.8.x (pocketbase v0.11.X)
-
-No upgrade is required
-
-Make sure to have a backup of your pb_data and to read the notes below before updating (there is small breaking change in case you are filtering multi-relation fields in your client-side code).
-
-### From 0.6.X (pocketbase v0.9.X) to 0.7.x (pocketbase v0.10.X)
-
-No upgrade is required
-
-### From 0.5.X (pocketbase v0.8.X) to 0.6.x (pocketbase v0.9.X)
-
-No upgrade is required, be sure to upgrade from From v0.7.X to v0.8.X first!
-
-### From 0.4.X (pocketbase v0.7.X) to 0.5.x (pocketbase v0.8.X)
-
-The upgrade is managed by the helm chart.
+```
+helm upgrade pocketbase techwolf12/pocketbase --version 0.25.9 --install
+```
